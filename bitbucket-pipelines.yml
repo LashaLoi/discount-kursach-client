@@ -1,0 +1,9 @@
+image: node:6.9.4
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Push to Heroku staging
+          script:
+            - git push -f https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_STAGING_NAME.git $(git rev-parse --abbrev-ref HEAD):master

@@ -1,0 +1,15 @@
+@import "../../common/styles/variables";
+
+.confirmation-dialog {
+    .content {
+        min-width: 350px;
+
+        .mdc-list-item {
+            padding: 0 24px;
+        }
+    }
+
+    &:not(.cancellable) .mdc-dialog__scrim {
+        pointer-events: none;
+    }
+}

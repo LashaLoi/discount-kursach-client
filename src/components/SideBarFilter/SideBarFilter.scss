@@ -1,0 +1,23 @@
+@import "@material/animation/variables";
+
+.filters {
+    margin-top: 12px;
+    
+    .controls {
+        display: flex;
+        align-items: center;
+    }
+
+    .filter-button {
+        border-width: 1px;
+        border-color: rgba($color: #000000, $alpha: .14) !important;
+    }
+
+    .button-margin {
+        margin-right: 10px;
+    }
+
+    .counter {
+        margin: 0 12px 0 auto;
+    }
+}

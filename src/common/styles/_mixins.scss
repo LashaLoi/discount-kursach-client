@@ -1,0 +1,29 @@
+@import "variables";
+
+@mixin marker($color, $background) {
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color;
+    font-size: 0.4em;
+    height: 30px;
+    width: 30px;
+    background: $background;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.1s background-color, ease-in-out 0.1s color;
+
+    i {
+        font-size: 18px;
+    }
+
+    &.hovered {
+        background: $color;
+        cursor: pointer;
+        color: $background;
+        z-index: 1001;
+    }
+}

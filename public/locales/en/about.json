@@ -1,0 +1,21 @@
+{
+    "post": "Post",
+    "review_item": "Review",
+    "added_to_favorite": "Added to favorites",
+    "add_to_favorite": "Add to favorites",
+    "removed_from_favorite": "Removed from favorites",
+    "rate_please": "Rate this place",
+    "comment_please": "Leave your opinion",
+    "n_reviews": "{{count}} review",
+    "n_reviews_plural": "{{count}} reviews",
+    "no_reviews": "Leave the first feedback!",
+    "ask_the_question": "Ask the question",
+    "enter_email": "E-mail",
+    "email_hint": "Leave your e-mail to get feedback",
+    "enter_message": "Your question",
+    "message_hint": "Write a few words about things that appeared unclear for you",
+    "message_sent": "Your message have been sent",
+    "message_sent_hint": "Feedback will come soon on your e-mail",
+    "edit_review": "Edit",
+    "delete_review": "Delete"
+}

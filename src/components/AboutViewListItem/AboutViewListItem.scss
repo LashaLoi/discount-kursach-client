@@ -1,0 +1,33 @@
+@import "../../common/styles/variables";
+
+.list-item {
+    display: flex;
+    padding: 10px 5px;
+
+    .icon {
+        margin-right: 15px;
+        color: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    .content {
+        cursor: default;
+    }
+
+    &.accent {
+        .icon, .content, *:link, *:visited {
+            color: #1976D2;
+        }
+
+        &:hover {
+            cursor: pointer;
+            .icon, .content, *:link, *:visited {
+                cursor: pointer;
+                color: $red;
+            }
+        }
+
+        &:focus {
+            color: #0D47A1;
+        }
+    }
+}

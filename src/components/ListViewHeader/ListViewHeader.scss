@@ -1,0 +1,135 @@
+@import "../../common/styles/variables";
+
+.drawer .listview-header {
+    min-height: 64px;
+    padding: 0 10px 4px;
+    width: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    z-index: 7;
+    flex-shrink: 0;
+
+    .mdc-list-item {
+        border-radius: unset;
+        margin: unset;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        height: 48px;
+        padding: 0 16px;
+        overflow: hidden;
+    }
+
+    // i {
+    //     display: block !important;
+    // }
+
+    .row {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        .search {
+            width: 100%;
+        }
+    }
+
+    .hamburger {
+        margin-left: -12px;
+        margin-right: 10px;
+    }
+
+    .help {
+        margin-left: 10px;
+        min-width: 48px;
+    }
+
+    .avatar .rmwc-avatar__icon {
+        height: 24px;
+        width: 24px;
+    }
+
+    .menu-avatar {
+        margin-right: 10px;
+    }
+
+    .account {
+        // margin-left: 10px;
+
+        .menu {
+            left: unset !important;
+            right: 0;
+            transform-origin: top right !important;
+
+            .title {
+                display: flex;
+                position: relative;
+                align-items: center;
+                height: 48px;
+                min-width: 220px;
+                padding: 0 16px;
+                overflow: hidden;
+                font-weight: bold;
+            }
+
+            & * {
+                white-space: nowrap;
+            }
+
+            .item-icon {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .logo .mdc-drawer__subtitle {
+        // color: $red;
+        display: inline;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    .filters {
+        margin-top: 12px;
+        
+        .controls {
+            display: flex;
+            align-items: center;
+        }
+    
+        .filter-button {
+            border-width: 1px;
+            border-color: rgba($color: #000000, $alpha: .14) !important;
+        }
+
+        .sort-button {
+            margin-right: 10px;
+        }
+    
+        .button-margin {
+            margin-right: 10px;
+        }
+    
+        .counter {
+            margin: 0 12px 0 auto;
+        }
+
+        .menu-item {
+            white-space: nowrap;
+        }
+
+        .icon-placeholder {
+            width: 24px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

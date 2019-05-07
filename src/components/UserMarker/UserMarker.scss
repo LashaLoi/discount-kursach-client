@@ -1,0 +1,37 @@
+@import "../../common/styles/mixins";
+
+.marker-wrap {
+  position: relative;
+
+  .user-marker {
+    @include marker($red, $theme-color);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+
+  i {
+    z-index: 100;
+  }
+
+  .ripple {
+    background-color: $red;
+    border-radius: 50%;
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    animation: ripple-effect 1s ease-in-out infinite;
+    z-index: 4;
+  }
+}
+
+@keyframes ripple-effect {
+  0% {
+    transform: translate(-50%, -50%) scale(1.0);
+    opacity: .95;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.5);
+    opacity: .0;
+  }
+}

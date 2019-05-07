@@ -1,0 +1,58 @@
+.category-filter {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 400px;
+    will-change: top, opacity, visibility;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &.hide {
+        transition: 
+            visibility 200ms ease-in-out,
+            top 200ms ease-in-out,
+            opacity 200ms ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+        top: -15px;
+    }
+
+    &.show {
+        transition:
+            visibility 200ms ease-in-out,
+            top 200ms ease-in-out,
+            opacity 200ms ease-in-out;
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+    }
+
+    .content {
+        padding: 10px;
+        height: 100%;
+    }
+
+    .radio-set {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .back {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .footer {
+        padding: 10px;
+        border-top: 1px solid rgba($color: #000000, $alpha: .12);
+        display: flex;
+        justify-content: flex-end;
+
+        .btn {
+            margin-left: 10px;
+        }
+    }
+}

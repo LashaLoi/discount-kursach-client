@@ -1,0 +1,55 @@
+@import "../../common/styles/variables";
+
+.header {
+    position: relative;
+    &.about {
+        margin: 0 -10px;
+    }
+
+    .title-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $gray;
+        padding: 10px 15px;
+        color: #fff !important;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    .subtitle {
+        display: flex;
+        align-items: center;
+
+        .bullet {
+            margin: 0 5px;
+        }
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        background-color: #fff;
+        color: #000;
+        border-radius: 50%;
+        text-decoration: none !important;
+    }
+
+    .btn-like {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        transform: translateY(-50%);
+        background-color: #fff !important;
+        color: rgba($color: #000000, $alpha: .54) !important;
+
+        &.active {
+            color: $red !important;
+        }
+    }
+}

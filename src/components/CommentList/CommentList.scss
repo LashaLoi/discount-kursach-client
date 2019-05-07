@@ -1,0 +1,11 @@
+@import "../../common/styles/variables";
+
+.comment-list {
+    // min-height: 100px;
+
+    .missing {
+        display: block;
+        margin: 50px 0;
+        text-align: center;
+    }
+}

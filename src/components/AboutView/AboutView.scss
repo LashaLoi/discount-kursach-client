@@ -1,0 +1,22 @@
+@import "../../common/styles/variables";
+
+.drawer {
+    .content.about {
+        padding: 0 10px;
+    }
+}
+
+.about-loading {
+    max-height: 100%;
+    overflow: hidden;
+
+    .btn-back {
+         position: absolute;
+         top: 5px;
+         left: 10px;
+         background-color: #fff;
+         color: #000;
+         border-radius: 50%;
+         text-decoration: none !important;
+     }
+}

@@ -1,0 +1,26 @@
+{
+    "showMenu": "Show menu",
+    "hideMenu": "Hide menu",
+    "logOut": "Log Out",
+    "support": "Support",
+    "help_or_report": "Help/report an issue",
+    "saleUpTo": "up to {{amount}}%",
+    "categories": "Categories",
+    "all": "All",
+    "favorite": "Favorites",
+    "search": "Search",
+    "yourLocation": "Your Location",
+
+    "filters": "Filters",
+    "clear_filters": "Clear filters",
+    "sorting": "Sort",
+    "name_asc": "By name (A-Z)",
+    "highestDiscount_desc": "By discount (higher first)",
+    "rating_desc": "By rating (higher first)",
+    "name_desc": "Па назве (Я-А)",
+    "highestDiscount_asc": "By discount (lower first)",
+    "rating_asc": "By rating (lower first)",
+    "createdAt_desc": "Newer first",
+    "createdAt_asc": "Olderer first",
+    "get_mobile": "Mobile app"
+}

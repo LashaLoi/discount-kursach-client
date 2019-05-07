@@ -1,0 +1,5 @@
+@import "../../common/styles/mixins";
+
+.marker {
+  @include marker($theme-color, $red);
+}

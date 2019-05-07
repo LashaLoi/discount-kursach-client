@@ -1,0 +1,13 @@
+{
+    "welcomeTo": "Welcome to",
+    "callToLogIn": "Log in to explore your personal sales, discounts and other benefits",
+    "username": "Username",
+    "password": "Password",
+    "invalidCredentials": "Invalid username or password",
+    "signIn": "Sign In",
+
+    "discounts_mobile": "Discounts Mobile",
+    "discounts_mobile_hint": "Would you like to download and install Discounts Mobile",
+    "download": "Download",
+    "no_thanks": "No, thanks"
+}

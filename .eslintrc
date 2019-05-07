@@ -1,0 +1,19 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-console": "warn",
+    "no-var": "error",
+    "arrow-parens": "off",
+    "class-methods-use-this": "warn",
+    "consistent-return": "warn",
+    "no-trailing-spaces": "off",
+    "no-confusing-arrow": "warn",
+    "no-plusplus": "off",
+    "no-debugger": "off",
+    "no-shadow": "warn",
+    "no-nested-ternary": "warn",
+    "comma-dangle": ["warn", "always-multiline"],
+    "semi": ["warn", "always"],
+    "quotes": ["warn", "double"]
+  }
+}

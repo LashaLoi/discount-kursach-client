@@ -1,0 +1,125 @@
+// General mports
+@import "~@rmwc/avatar/avatar.css";
+@import "~material-components-web/dist/material-components-web.min.css";
+@import "~@rmwc/circular-progress/circular-progress.css";
+@import "~@rmwc/icon/icon.css";
+@import "variables";
+
+// MDC Settings
+@import "@material/react-text-field/index.scss";
+@import "@material/drawer/mixins";
+
+.mdc-chip__icon--leading-hidden {
+  display: none;
+}
+
+:root {
+  --mdc-theme-primary: #{$red};
+  --mdc-theme-secondary: #{$theme-gray};
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--invalid) {
+  @include mdc-text-field-outline-color(rgba($color: #000000, $alpha: .12));
+  @include mdc-text-field-hover-outline-color(rgba($color: #000000, $alpha: .54));
+  @include mdc-text-field-focused-outline-color(rgba($color: #000000, $alpha: .54));
+  @include mdc-text-field-label-color(rgba($color: #000000, $alpha: .54));
+  @include mdc-text-field-caret-color(#000);
+}
+
+.mdc-text-field.mdc-text-field--focused:not(.mdc-text-field--disabled),
+.mdc-select.mdc-select--focused:not(.mdc-text-field--disabled) {
+  i {
+    color: rgba($color: #000000, $alpha: .54) !important;
+  }
+}
+
+.mdc-button--outlined {
+  border-width: 1px;
+  border-color: rgba($color: #000000, $alpha: .14) !important;
+}
+
+.mdc-button {
+  &:disabled {
+    color: rgba(0, 0, 0, 0.37) !important;
+  }
+}
+
+.mdc-chip {
+  &.mdc-chip--selected {
+    // color: $red !important;
+    // background-color: #fff;
+    // path {
+    //   stroke: $red !important;
+    // }
+    // &::before {
+    //   background-color: $red;
+    //   opacity: .08;
+    // }
+    color: #fff !important;
+    background-color: #424242;
+    path {
+      stroke: #fff !important;
+    }
+    &::before {
+      background-color: #424242;
+      opacity: .08;
+    }
+  }
+}
+
+.mdc-drawer {
+  @include mdc-drawer-width(400px);
+}
+
+// Common styles
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  color: rgba($color: #000000, $alpha: .1);
+}
+
+.main-content {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 500;
+  span {
+    color: $red;
+  }
+}
+
+sup {
+  color: $red;
+  font-weight: normal;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .12);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.stars {
+  font-family: "Material Icons"
+}

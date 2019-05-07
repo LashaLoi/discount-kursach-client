@@ -1,0 +1,106 @@
+@import "@material/icon-button/mdc-icon-button";
+@import "../../common/styles/variables";
+
+.comment {
+    display: flex;
+    width: 100%;
+
+    &:not(.user-comment) {
+        margin: 20px 0;
+    }
+
+    .icon {
+        margin-right: 15px;
+        color: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    .avatar {
+        margin-right: 15px;
+
+        .rmwc-avatar__text {
+            background-color: rgba($color: #000000, $alpha: 0.12);
+            color: rgba($color: #000000, $alpha: 0.6) !important;
+        }
+    }
+
+    .content {
+        position: relative;
+        width: 100%;
+        padding: 0 15px 15px 0;
+        overflow: visible;
+
+        &.border {
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.12);
+        }
+
+        .delete {
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+    }
+
+    .body {
+        margin: 14px 0;
+
+        p {
+            margin: 0;
+            min-height: 20px;
+        }
+    }
+
+    .username, .body, .date {
+        display: block;
+    }
+
+    .secondary {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .date {
+            margin-left: 10px;
+        }
+
+        .star {
+            color: rgba($color: #000000, $alpha: 0.12);
+
+            &.active {
+                color: $red;
+            }
+        }
+    }
+
+    .votes {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        height: 22px;
+        color: rgba($color: #000000, $alpha: 0.6);
+        cursor: default;
+
+        &.active {
+            color: $red !important;
+        }
+
+        .thumb {
+            @include mdc-icon-button-size(18px);
+
+            [role=button] {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .action-block {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: rgba($color: #000000, $alpha: 0.6);
+
+        .action {
+            @include mdc-icon-button-size(18px);
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import "../../common/styles/variables";
+
+.tooltip-wrap {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.9) !important;
+
+    .tooltip {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+        white-space: nowrap;
+        padding: 5px 10px 5px 20px;
+        border-radius: 4px;
+        background-color: #fff;
+        opacity: 0;
+        transition: opacity ease-in-out .1s;
+        box-shadow: 0 0 5px rgba(0,0,0,.5);
+
+        &.show {
+            opacity: .9;
+            z-index: 1000;
+        }
+
+        .title {
+            display: block;
+            font-weight: bold;
+            // color: $theme-gray;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            color: $theme-gray;
+
+            span {
+                margin: 3px;
+            }
+
+            i {
+                font-size: 12px;
+            }
+        }
+    }
+}

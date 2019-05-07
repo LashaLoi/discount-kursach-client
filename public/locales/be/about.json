@@ -1,0 +1,22 @@
+{
+    "post": "Пакінуць",
+    "review_item": "Водгук",
+    "added_to_favorite": "Дадана ў абранае",
+    "add_to_favorite": "Дадаць у абранае",
+    "removed_from_favorite": "Выдалена з абранага",
+    "rate_please": "Ацаніце гэтае месца",
+    "comment_please": "Падзяліцеся сваім меркаваннем",
+    "n_reviews_0": "{{count}} водгук",
+    "n_reviews_1": "{{count}} водгука",
+    "n_reviews_2": "{{count}} водгукаў",
+    "no_reviews": "Будзьце першым, хто заставіць свой водгук!",
+    "ask_the_question": "Спытацца",
+    "enter_email": "E-mail",
+    "email_hint": "Пакіньце Ваш e-mail для зваротнай сувязі",
+    "enter_message": "Ваша пытанне",
+    "message_hint": "Напішыце аб тым, што здалося Вам незразумелым",
+    "message_sent": "Ваша пытанне адпраўлена",
+    "message_sent_hint": "Адказ прыйдзе хуткім часам на пакінуты Вамі e-mail",
+    "edit_review": "Рэдагаваць",
+    "delete_review": "Выдаліць"
+}

@@ -1,0 +1,16 @@
+{
+    "welcomeTo": "Вітаем у",
+    "callToLogIn": "Увайдзіце, каб даведацца аб персанальных зніжках, акцыях і іншых прапановах",
+    "username": "Імя карыстальніка",
+    "password": "Пароль",
+    "invalidCredentials": "Памылковае імя карыстальніка ці пароль",
+    "You are not allowed to login": "Палі вышэй не могуць быць пустымі",
+    "Request path contains unescaped characters": "Палі вышэй змяшчаюць недапушчальныя сімвалы",
+    "User is not found": "Карыстальнік не знойдзены",
+    "Incorrect user name or password": "Памылковае імя карыстальніка ці пароль",
+    "signIn": "Увайсці",
+    "discounts_mobile": "Discounts Mobile",
+    "discounts_mobile_hint": "Не жадаеце ўсталяваць мабільны дадатак Discounts?",
+    "download": "Спампаваць",
+    "no_thanks": "Не, дзякуй"
+}

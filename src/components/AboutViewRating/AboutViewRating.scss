@@ -1,0 +1,35 @@
+@import "../../common/styles/variables";
+
+.rating {
+    display: flex;
+    align-items: center;
+
+    .dialog {
+        .content {
+            padding: 10px 24px 20px;
+        }
+
+        .textarea {
+            width: 400px;
+            max-width: 100%;
+
+            textarea {
+                resize: none;
+            }
+        }
+
+        .button-block {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+
+            .action {
+                margin-left: 10px;
+            }
+        }
+
+        .stars {
+            margin-bottom: 20px;
+        }
+    }
+}

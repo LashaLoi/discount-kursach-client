@@ -1,0 +1,10 @@
+@import "../../common/styles/variables";
+
+.drawer {
+    .content.list {
+        padding: 15px 10px;
+        &.loading {
+            overflow: hidden;
+        }
+    }
+}

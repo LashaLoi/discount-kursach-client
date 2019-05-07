@@ -1,0 +1,34 @@
+{
+    "appName": "iTechArt Discounts",
+    "styledAppName": "<span>:i</span>Tech<span>Art</span> Discounts",
+    "noItems": "No items",
+    "nItems_0": "{{count}} item",
+    "nItems_1": "{{count}} items",
+    "save": "Save",
+    "cancel": "Cancel",
+    "undo": "Undo",
+    "switchLng": "Change language",
+    "loading": "Loading...",
+    "error": "An error occured",
+    "notFound": "Page not found",
+    "backToMain": "Back to main",
+
+    "cities": {
+        "Минск": "Minsk",
+        "Брест": "Brest",
+        "Гродно": "Hrodna",
+        "Витебск": "Viciebsk",
+        "Могилёв": "Mahilioŭ",
+        "Могилев": "Mahilioŭ",
+        "Гомель": "Homieĺ"
+    },
+    "app_short_name": "Discounts",
+    "no_results": "No results",
+    "select": "Select",
+    "close": "Close",
+    "switch_lng": "Switch language",
+    "pick_city": "Pick city",
+    "pick_your_city": "Pick your city",
+    "pick_lang": "Language",
+    "benefit_not_found": "Nothing have been found. Looks like page was either moved or deleted"
+}

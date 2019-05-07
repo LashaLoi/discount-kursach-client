@@ -1,0 +1,22 @@
+{
+    "post": "Отправить",
+    "review_item": "Отзыв",
+    "added_to_favorite": "Добавлено в избранное",
+    "add_to_favorite": "Добавить в избранное",
+    "removed_from_favorite": "Удалено из избранного",
+    "rate_please": "Оцените это место",
+    "comment_please": "Поделитесь своим мнением",
+    "n_reviews_0": "{{count}} отзыв",
+    "n_reviews_1": "{{count}} отзыва",
+    "n_reviews_2": "{{count}} отзывов",
+    "no_reviews": "Будьте первым, кто оставит свой отзыв!",
+    "ask_the_question": "Задать вопрос",
+    "enter_email": "E-mail",
+    "email_hint": "Оставьте Ваш e-mail для обратной связи",
+    "enter_message": "Ваш вопрос",
+    "message_hint": "Напишите о том, что показалось вам неясным",
+    "message_sent": "Ваш вопрос отправлен",
+    "message_sent_hint": "Ответ придет в ближайшее время оставленный Вами e-mail",
+    "edit_review": "Редактировать",
+    "delete_review": "Удалить"
+}

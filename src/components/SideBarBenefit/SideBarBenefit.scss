@@ -1,0 +1,118 @@
+@import "@material/icon-button/mdc-icon-button";
+@import "../../common/styles/variables";
+
+.benefits-list {
+  font-size: 0.7rem;
+  min-height: 50px;
+}
+
+.outer-container {
+  padding: 5px 10px;
+}
+
+.sidebar-card {
+  height: 100%;
+  position: relative;
+
+  .mdc-card__primary-action {
+    padding: 10px;
+    height: 100%;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 240px;
+  }
+
+  .benefit-title {
+    margin: 0 !important;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .highlighted {
+    background-color: rgba($red, .2);
+  }
+
+  .card-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+    span {
+      margin: 0 12px 0 3px;
+    }
+  }
+
+  .accent {
+    color: $red;
+  }
+
+  .label-new {
+    vertical-align: text-bottom;
+  }
+
+  .like {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+    margin-right: 5px;
+    margin-left: auto;
+    color: rgba(0, 0, 0, .54);
+    @include mdc-icon-button-size(22px);
+
+    &.mdc-icon-button--on {
+      color: $red;
+    }
+  }
+  
+  .avatar {
+    position: relative;
+    color: rgba(0, 0, 0, .54);
+    background-color: rgba(0, 0, 0, .38);
+    height: 44px;
+    width: 58.66px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100%;
+    }
+  }
+
+  .description {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 20px;
+      width: 50px;
+      background: linear-gradient(to left, #fff, transparent);
+    }
+  }
+}

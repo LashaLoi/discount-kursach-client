@@ -1,0 +1,26 @@
+{
+    "showMenu": "Паказаць меню",
+    "hideMenu": "Схаваць меню",
+    "logOut": "Выйсці",
+    "support": "Падтрымка",
+    "help_or_report": "Дапамога/паведаміць аб праблеме",
+    "saleUpTo": "да {{amount}}%",
+    "categories": "Катэгорыі",
+    "all": "Усё",
+    "favorite": "Абранае",
+    "search": "Пошук",
+    "yourLocation": "Ваша месцазнаходжанне",
+
+    "filters": "Фільтры",
+    "clear_filters": "Зкінуць фільтры",
+    "sorting": "Сартаванне",
+    "name_asc": "Па назве (А-Я)",
+    "highestDiscount_desc": "Па зніжке (спачатку з найбольшай)",
+    "rating_desc": "Па рэйтынгу (спачатку з высокім)",
+    "name_desc": "Па назве (Я-А)",
+    "highestDiscount_asc": "Па зніжке (спачатку з найменшай)",
+    "rating_asc": "Па рэйтынгу (спачатку з нізкім)",
+    "createdAt_desc": "Спачатку новыя",
+    "createdAt_asc": "Спачатку старыя",
+    "get_mobile": "Мабільны дадатак"
+}

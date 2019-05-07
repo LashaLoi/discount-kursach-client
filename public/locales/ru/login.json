@@ -1,0 +1,16 @@
+{
+    "welcomeTo": "Добро пожаловать",
+    "callToLogIn": "Войдите, чтобы узнать про персональные скидки, акции и прочие предложения",
+    "username": "Логин",
+    "password": "Пароль",
+    "invalidCredentials": "Неверный логин или пароль",
+    "You are not allowed to login": "Поля выше не могут быть пустыми",
+    "Request path contains unescaped characters": "Поля выше содержат недопустимые символы",
+    "User is not found": "Пользователь не найден",
+    "Incorrect user name or password": "Неверный логин или пароль",
+    "signIn": "Войти",
+    "discounts_mobile": "Discounts Mobile",
+    "discounts_mobile_hint": "Не желаете установить мобильное приложение Discounts?",
+    "download": "Скачать",
+    "no_thanks": "Нет, спасибо"
+}

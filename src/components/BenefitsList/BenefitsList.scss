@@ -1,0 +1,29 @@
+@import "../../common/styles/variables";
+
+$ghost-gray: #bdbdbd;
+
+.benefit-list {
+    height: 100%;
+
+    &.loading {
+        padding: 5px 16px;
+    }
+
+    .missing {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        i {
+            font-size: 100px;
+            color: $ghost-gray;
+        }
+
+        .caption {
+            margin-top: 20px;
+            color: $ghost-gray !important;
+        }
+    }
+}
